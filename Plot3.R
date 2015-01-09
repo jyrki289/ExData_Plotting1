@@ -30,8 +30,8 @@ data$Datetime <- strptime(paste(data[,"Date"], data[,"Time"]), "%d/%m/%Y %H:%M:%
 
 # Define png
 png(filename = "plot3.png",  
-    width = 504,  
-    height = 504,  
+    width = 480,  
+    height = 480,  
     units = "px"  
     ) 
 

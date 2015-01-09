@@ -30,8 +30,8 @@ data$Datetime <- strptime(paste(data[,"Date"], data[,"Time"]), "%d/%m/%Y %H:%M:%
 
 # Define png
 png(filename = "plot4.png",  
-    width = 504,  
-    height = 504,  
+    width = 480,  
+    height = 480,  
     ) 
 # matrix for plots 
 par(mfrow=c(2,2)) 
